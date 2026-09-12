@@ -1,0 +1,19 @@
+# 构建产物
+*.o
+*.obj
+*.exe
+*.out
+build/
+dist/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 密钥与本地配置 —— 永远不进仓库
+config.local.h
+config.local.*
+*.key
+*.pem
+*.token
