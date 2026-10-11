@@ -6,8 +6,19 @@
 build/
 dist/
 
+# Visual Studio
+.vs/
+x64/
+x86/
+Debug/
+Release/
+*.vcxproj.user
+*.suo
+*.user
+*.aps
+*.pdb
+
 # 编辑器
-.vscode/
 .idea/
 *.swp
 
