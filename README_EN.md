@@ -1,6 +1,6 @@
 # serial-tool · Pure-C Serial Console
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![CI](https://github.com/wdfdsyhb/serial-tool/actions/workflows/build.yml/badge.svg)](https://github.com/wdfdsyhb/serial-tool/actions/workflows/build.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![C99](https://img.shields.io/badge/C-C99-blue)
 
 > A pure-C CLI serial tool: list COM ports and identify USB-serial chips (CH340/CP210x/FTDI/ESP32 JTAG) by VID/PID — zero dependencies, growing into a full serial console.
