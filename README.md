@@ -1,6 +1,6 @@
 # serial-tool · 纯 C 串口调试助手
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![CI](https://github.com/wdfdsyhb/serial-tool/actions/workflows/build.yml/badge.svg)](https://github.com/wdfdsyhb/serial-tool/actions/workflows/build.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![C99](https://img.shields.io/badge/C-C99-blue)
 
 > 一条 `serial-tool list` 列出所有 COM 口，并按 VID/PID 识别 USB 串口芯片（CH340/CP210x/FTDI/ESP32 JTAG）——纯 C、零依赖，正在长成完整的串口调试工具。
