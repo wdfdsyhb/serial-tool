@@ -1,4 +1,11 @@
-# serial-tool
+# serial-tool · 纯 C 串口调试助手
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![C99](https://img.shields.io/badge/C-C99-blue)
+
+> 一条 `serial-tool list` 列出所有 COM 口，并按 VID/PID 识别 USB 串口芯片（CH340/CP210x/FTDI/ESP32 JTAG）——纯 C、零依赖，正在长成完整的串口调试工具。
+>
+> English: A pure-C CLI serial tool: list COM ports and identify USB-serial chips (CH340/CP210x/FTDI/ESP32 JTAG) by VID/PID — zero dependencies, growing into a full serial console.
 
 > C 语言实现的串口调试助手（开发中）——我的第一个正式仓库，嵌入式路线的第一块砖。
 
@@ -47,3 +54,9 @@ build.bat   MSVC 一键编译
 ## License
 
 MIT
+
+---
+
+## English
+
+Full English documentation: [README_EN.md](README_EN.md)
