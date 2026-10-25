@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build with GCC
-        run: gcc -Wall -Wextra -O2 src/main.c src/devices.c -o serial-tool.exe -lsetupapi -ldevguid
+        run: gcc -DINITGUID -Wall -Wextra -O2 src/main.c src/devices.c -o serial-tool.exe -lsetupapi
       - name: Verify binary
         run: test -f serial-tool.exe && echo "build OK"
         shell: bash
